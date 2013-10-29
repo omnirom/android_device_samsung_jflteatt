@@ -14,8 +14,8 @@
 # limitations under the License.
 
  
-# Grab needed APNs / This needs to be updated once https://gerrit.omnirom.org/#/c/1593/ is merged
-PRODUCT_COPY_FILES := vendor/omni/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+# Grab needed APNs
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
