@@ -7,12 +7,6 @@
   },
   {
     "remote":       "github",
-    "repository":   "omni-jf/android_device_samsung_jflteatt",
-    "target_path":  "device/samsung/jflteatt",
-    "revision":     "omni"
-  },
-  {
-    "remote":       "github",
     "repository":   "omni-jf/android_kernel_samsung_jf",
     "target_path":  "kernel/samsung/jf",
     "revision":     "omni"
