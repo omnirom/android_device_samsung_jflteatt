@@ -26,8 +26,6 @@ PRODUCT_PACKAGES += \
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jflteatt/overlay
-## common overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/jf-common/overlay-gsm
 
 # Inherit from jf-common
 $(call inherit-product, device/samsung/jf-common/jf-common.mk)
